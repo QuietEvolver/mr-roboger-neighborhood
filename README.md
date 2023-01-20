@@ -79,6 +79,13 @@ const num = "";
 neighborhoodMessage(num);
 Expected Output: 0
 
+<!-- Tenth Test -->
+Test: "It should return 0 if input is null."
+Code:
+const num = "";
+neighborhoodMessage(num);
+Expected Output: 0
+
 ## Setup/Installation Requirements
 
 * _Open a terminal console on your personal computer_
