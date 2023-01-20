@@ -44,12 +44,12 @@ const num = 3;
 neighborhoodMessage(num);
 Expected Output: [0,"Beep!", 2, 3];
 
-<!-- Fifth Test 
-Test: "It should return "Beep!" for numbers that contain a 1 in a give index of an array.
+<!-- Fifth Test -->
+Test: "It should return "Beep!" for numbers that contain a 1 in a given index of an array.
 Code:
 const num = 3;
 neighborhoodMessage(num);
-Expected Output: [0, 1, 2, 3];-->
+Expected Output: [0, 1, 2, 3];
 <!-- Sixth Test -->
 <!-- Seventh Test -->
 
