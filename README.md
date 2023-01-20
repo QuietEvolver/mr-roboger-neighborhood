@@ -24,11 +24,18 @@ neighborhoodMessage(num);
 Expected Output: 1
 
 <!-- Second Test -->
-Test: "It should return 0 if there is no input ."
+Test: "It should return 0 if there is no input."
 Code:
 const num = "";
 neighborhoodMessage(num);
 Expected Output: 0
+
+<!-- Second Test -->
+Test: "It should return an array of numbers from a given integer input."
+Code:
+const num = 3;
+neighborhoodMessage(num);
+Expected Output: [0, 1, 2, 3];
 
 ## Setup/Installation Requirements
 
