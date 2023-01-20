@@ -110,7 +110,7 @@ Return a list of values from 0 to the user's inputter number.
 // test8: 
 function neighborhoodMessage(num){
   const indexedArray = [];
-  if(num===undefined ||num===""){ // || num===Symbol ||  num===null || num==BigInt
+  if(num===undefined || num===null || num===""){ // || num===Symbol || num==BigInt
     return 0;
   }
   // Getting the string as a parameter
