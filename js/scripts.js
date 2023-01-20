@@ -107,10 +107,10 @@ Return a list of values from 0 to the user's inputter number.
 //   return indexedArray; 
 // }
 
-// test8:// || num===Symbol || num==BigInt
+// test8: 
 function neighborhoodMessage(num){
   const indexedArray = [];
-  if(num===undefined || num===null || num===""){
+  if(num===undefined || num===null || num===""){ // || num===Symbol || num==BigInt
     return 0;
   }
   // Getting the string as a parameter
@@ -120,13 +120,13 @@ function neighborhoodMessage(num){
     const intArr = Array.from(String(i), myFunc);  // eachIndexOfArray
     // Print the result array
     console.log(intArr);
-     if(intArr.includes(3)){
-      indexedArray.push("Won't you be my neighbor?");
-    } else if(intArr.includes(2)){
-      indexedArray.push("Boop!");
-    } else if(intArr.includes(1)){
-      indexedArray.push("Beep!");
-    }  else indexedArray.push(i);
+    if(intArr.includes(3)){
+    indexedArray.push("Won't you be my neighbor?");
+  } else if(intArr.includes(2)){
+    indexedArray.push("Boop!");
+  } else if(intArr.includes(1)){
+    indexedArray.push("Beep!");
+  }  else indexedArray.push(i);
   }
   console.log("IndexArr: ", indexedArray);
   return indexedArray; 
