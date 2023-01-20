@@ -35,12 +35,26 @@ Return a list of values from 0 to the user's inputter number.
 // }
 
 // test4:
+// function neighborhoodMessage(num){
+//   const indexedArray = []; 
+//   for (let i = 0; i <= num; i++) {
+//     if([i].includes(1)){
+//       indexedArray.push("Beep!");
+//     } else indexedArray.push(i);
+//   }
+//   console.log("IndexArr: ", indexedArray);
+//   return indexedArray; 
+// }
+
+// test5: 
 function neighborhoodMessage(num){
-  const indexedArray = []; 
+  const indexedArray = [];
+  const eachIndexOfArray = Array.from(i);
   for (let i = 0; i <= num; i++) {
-    if([i].includes(1)){
+    if(eachIndexOfArray.includes(1)){
       indexedArray.push("Beep!");
-    } else indexedArray.push(i);
+    }else 
+   indexedArray.push(i);
   }
   console.log("IndexArr: ", indexedArray);
   return indexedArray; 
