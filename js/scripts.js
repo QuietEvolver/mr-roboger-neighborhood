@@ -48,13 +48,18 @@ Return a list of values from 0 to the user's inputter number.
 
 // test5: 
 function neighborhoodMessage(num){
-  const indexedArray = [];
-  const eachIndexOfArray = Array.from(i);
+  
+  const indexedArray = [];// Getting the string as a parameter
+  // and typecasting it into an integer
+  
   for (let i = 0; i <= num; i++) {
-    if(eachIndexOfArray.includes(1)){
+    let myFunc = num => Number(num);
+    const intArr = Array.from(String(i), myFunc);  // eachIndexOfArray
+    // Print the result array
+    console.log(intArr);
+    if(intArr.includes(1)){
       indexedArray.push("Beep!");
-    }else 
-   indexedArray.push(i);
+    }else indexedArray.push(i);
   }
   console.log("IndexArr: ", indexedArray);
   return indexedArray; 
