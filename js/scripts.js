@@ -17,7 +17,7 @@ function neighborhoodMessage(num){
     let myFunc = num => Number(num); 
     const intArr = Array.from(String(i), myFunc);  // eachIndexOfArray
     // Print the result array
-    console.log(intArr);
+    // console.log(intArr);
     if(intArr.includes(3)){
     indexedArray.push("Won't you be my neighbor?");
   } else if(intArr.includes(2)){
@@ -35,10 +35,13 @@ function handleFormSubmit(e){
 
   const input = document.querySelector("input#input-id").value;
   console.log("Input: ", input);
-  console.log("I am an event.");
+  console.log("I am an positive event.");
+  
+  const output = neighborhoodMessage(input)
+  document.querySelector("span#output").innerText = output;
 }
 
-window.addEventListener("load", function(){
+window.addEventListener("load", ()=>{
   const form = document.querySelector("form");
   form.addEventListener("submit", handleFormSubmit);
 });
