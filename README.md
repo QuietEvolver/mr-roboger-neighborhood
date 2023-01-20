@@ -50,7 +50,14 @@ Code:
 const num = 15;
 neighborhoodMessage(num);
 Expected Output: [0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
+
 <!-- Sixth Test -->
+Test: "It should return ""Boop!" for numbers that contain a 2 in a given index of an array.
+Code:
+const num = 15;
+neighborhoodMessage(num);
+Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
+
 <!-- Seventh Test -->
 
 
