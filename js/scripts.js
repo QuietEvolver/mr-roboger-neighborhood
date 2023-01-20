@@ -107,10 +107,10 @@ Return a list of values from 0 to the user's inputter number.
 //   return indexedArray; 
 // }
 
-// test8: 
+// test8: //|| num==BigInt
 function neighborhoodMessage(num){
   const indexedArray = [];
-  if(num==="" || num===undefined || num===null || num===Symbol){ //|| num==BigInt
+  if(num==="" || num===undefined || num===null || num===Symbol){ 
     return 0;
   }
   // Getting the string as a parameter
