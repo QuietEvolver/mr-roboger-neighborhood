@@ -29,3 +29,9 @@ function neighborhoodMessage(num){
   console.log("IndexArr: ", indexedArray);
   return indexedArray; 
 }
+
+
+
+window.addEventListener("load", ()=>{
+  document.querySelector("form").addEventListener("submit", handleFormSubmit);
+});
