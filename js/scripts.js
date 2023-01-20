@@ -18,6 +18,15 @@ Return a list of values from 0 to the user's inputter number.
 
 // Testing for first directive: For numbers that contain a 1,"Beep!" i.e. 109, 11, or 1- "Beep!"
 
+//test1:
+// function neighborhoodMessage(num){
+//   return 1;
+// }
+
+//test2: 
 function neighborhoodMessage(num){
-  return 1;
+  if (num.length === 0){
+    return 0;
+  } else return 1;
 }
+
