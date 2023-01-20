@@ -30,8 +30,15 @@ function neighborhoodMessage(num){
   return indexedArray; 
 }
 
+function handleFormSubmit(e){
+  e.preventDefault();
 
+  const input = document.querySelector("input#input-id").value;
+  console.log("Input: ", input);
+  console.log("I am an event.");
+}
 
-window.addEventListener("load", ()=>{
-  document.querySelector("form").addEventListener("submit", handleFormSubmit);
+window.addEventListener("load", function(){
+  const form = document.querySelector("form");
+  form.addEventListener("submit", handleFormSubmit);
 });
