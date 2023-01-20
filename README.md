@@ -17,11 +17,18 @@ Create a web application, with test driven development, taking a number from the
 Describe: neighborhoodMessage()
 
 <!-- First Test -->
-Test: "It should return 1 if an integer is entered."
+Test: "It should return 1 if an integer input evaluates truthy."
 Code:
 const num = 1;
 neighborhoodMessage(num);
 Expected Output: 1
+
+<!-- Second Test -->
+Test: "It should return 0 if there is no input ."
+Code:
+const num = "";
+neighborhoodMessage(num);
+Expected Output: 0
 
 ## Setup/Installation Requirements
 
@@ -39,7 +46,7 @@ Expected Output: 1
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) _2023Vera Weikel_
+Copyright (c) _2023 Vera Weikel_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
