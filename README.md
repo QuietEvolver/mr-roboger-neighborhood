@@ -47,9 +47,9 @@ Expected Output: [0,"Beep!", 2, 3];
 <!-- Fifth Test -->
 Test: "It should return "Beep!" for numbers that contain a 1 in a given index of an array.
 Code:
-const num = 3;
+const num = 15;
 neighborhoodMessage(num);
-Expected Output: [0, 1, 2, 3];
+Expected Output: [0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
 <!-- Sixth Test -->
 <!-- Seventh Test -->
 
