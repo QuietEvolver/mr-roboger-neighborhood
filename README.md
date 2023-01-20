@@ -22,17 +22,17 @@ Write tests for your application's business logic.
 - For numbers that contain a 2, "Boop!", i.e. 2, 24, or 2099 -"Boop!"
 - For numbers that contain a 3, "Won't you be my neighbor?" ie. 39, 3, or 8763 = "Won't you be my neighbor?"
 - Observe Hierarchy of Substitutions: These substitutions are written from least to most important.
-** The number 13 should be replaced with "Won't you be my neighbor?"
-** The number 12 should be replaced with "Boop!".
-** The number 23 should be replaced with "Won't you be my neighbor?"
-** The number 21 should be replaced with "Boop!".
+-- The number 13 should be replaced with "Won't you be my neighbor?"
+-- The number 12 should be replaced with "Boop!".
+-- The number 23 should be replaced with "Won't you be my neighbor?"
+-- The number 21 should be replaced with "Boop!".
 
 [UI/UX]:Design the application so that a user is able to enter a new number and see new results over and over again.
 Return a list of values from 0 to the user's inputter number. 
 [HTML]:Printing each element in the list to the webpage. 
-```
-## Tests
 
+## Tests
+```
 Describe: neighborhoodMessage()
 
 <!-- First Test -->
