@@ -65,7 +65,12 @@ const num = 15;
 neighborhoodMessage(num);
 Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
 
-
+<!-- Eigth Test -->
+Test: "It should return numbers that contain a 3 first, then 2 second, and 1 last weighed by the highest order number at the top of heirarchy substitutions."
+Code:
+const num = 15;
+neighborhoodMessage(num);
+Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?', 'Beep!', 'Beep!'];
 
 ## Setup/Installation Requirements
 
