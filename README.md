@@ -38,28 +38,32 @@ neighborhoodMessage(num);
 Expected Output: [0, 1, 2, 3];
 
 <!-- Fourth Test -->
-Test: "It should return "Beep!" for number 1 in a give index of an array.
+Test: "It should return "Beep!" for number 1 in a give index of an array."
 Code:
 const num = 3;
 neighborhoodMessage(num);
 Expected Output: [0,"Beep!", 2, 3];
 
 <!-- Fifth Test -->
-Test: "It should return "Beep!" for numbers that contain a 1 in a given index of an array.
+Test: "It should return "Beep!" for numbers that contain a 1 in a given index of an array."
 Code:
 const num = 15;
 neighborhoodMessage(num);
 Expected Output: [0, 'Beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
 
 <!-- Sixth Test -->
-Test: "It should return ""Boop!" for numbers that contain a 2 in a given index of an array.
+Test: "It should return ""Boop!" for numbers that contain a 2 in a given index of an array."
 Code:
 const num = 15;
 neighborhoodMessage(num);
 Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
 
 <!-- Seventh Test -->
-
+Test: "It should return numbers that contain a 3, "Won't you be my neighbor?""
+Code:
+const num = 15;
+neighborhoodMessage(num);
+Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'];
 
 
 
