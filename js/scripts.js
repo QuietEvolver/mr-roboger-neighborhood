@@ -25,8 +25,12 @@ Return a list of values from 0 to the user's inputter number.
 
 //test2: 
 function neighborhoodMessage(num){
-  if (num.length === 0){
-    return 0;
-  } else return 1;
+  const indexedArray = [];
+  for (let i = 0; i <= num; i++) {
+    if (num.length === 0){
+      return 0;
+    } else indexedArray.push(i);
+  }
+  return indexedArray; 
 }
 

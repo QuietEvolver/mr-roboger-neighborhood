@@ -30,12 +30,31 @@ const num = "";
 neighborhoodMessage(num);
 Expected Output: 0
 
-<!-- Second Test -->
+<!-- Third Test -->
 Test: "It should return an array of numbers from a given integer input."
 Code:
 const num = 3;
 neighborhoodMessage(num);
 Expected Output: [0, 1, 2, 3];
+
+<!-- Fourth Test -->
+Test: "It should return "Beep!" for number 1 in a give index of an array.
+Code:
+const num = 3;
+neighborhoodMessage(num);
+Expected Output: [0,"Beep!", 2, 3];
+
+<!-- Fifth Test 
+Test: "It should return "Beep!" for numbers that contain a 1 in a give index of an array.
+Code:
+const num = 3;
+neighborhoodMessage(num);
+Expected Output: [0, 1, 2, 3];-->
+<!-- Sixth Test -->
+<!-- Seventh Test -->
+
+
+
 
 ## Setup/Installation Requirements
 
