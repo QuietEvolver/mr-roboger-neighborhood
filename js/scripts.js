@@ -23,14 +23,28 @@ Return a list of values from 0 to the user's inputter number.
 //   return 1;
 // }
 
-//test2: 
+//test2-3: 
+// function neighborhoodMessage(num){
+//   const indexedArray = [];
+//   for (let i = 0; i <= num; i++) {
+//     if (num.length === 0){
+//       return 0;
+//     } else indexedArray.push(i);
+//   }
+//   return indexedArray; 
+// }
+
+// test4:
 function neighborhoodMessage(num){
   const indexedArray = [];
-  for (let i = 0; i <= num; i++) {
     if (num.length === 0){
       return 0;
-    } else indexedArray.push(i);
+    } 
+  for (let i = 0; i <= num; i++) { 
+    if (num.includes(1)){
+      indexedArray.push("Beep!");
+    }
+    else indexedArray.push(i);
   }
   return indexedArray; 
 }
-
