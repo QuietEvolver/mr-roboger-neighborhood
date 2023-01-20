@@ -72,6 +72,13 @@ const num = 15;
 neighborhoodMessage(num);
 Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?', 'Beep!', 'Beep!'];
 
+<!-- Ninth Test -->
+Test: "It should return 0 if input is undefinded."
+Code:
+const num = "";
+neighborhoodMessage(num);
+Expected Output: 0
+
 ## Setup/Installation Requirements
 
 * _Open a terminal console on your personal computer_
