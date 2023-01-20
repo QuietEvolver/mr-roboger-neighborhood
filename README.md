@@ -86,6 +86,14 @@ const num = "";
 neighborhoodMessage(num);
 Expected Output: 0
 
+<!-- Eleventh Test -->
+Test: "It should return 0 if input is a symbol."
+Code:
+const num = "";
+neighborhoodMessage(num);
+Expected Output: 0
+
+
 ## Setup/Installation Requirements
 
 * _Open a terminal console on your personal computer_
