@@ -123,7 +123,14 @@ Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4]
 Test: "It should return current  boop array when boop? message is extracted for BI/UI separation."
 Code:
 const num = 4;
-neighborhoodMessage(num, messageA);
+neighborhoodMessage(num, messageA, messageB);
+Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4]
+
+<!-- Fourteenth Test -->
+Test: "It should return current array when beepp? message is extracted for BI/UI separation."
+Code:
+const num = 4;
+neighborhoodMessage(num, messageA, messageB, messageC);
 Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4]
 
 ## Setup/Installation Requirements
