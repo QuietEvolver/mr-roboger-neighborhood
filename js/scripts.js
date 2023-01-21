@@ -1,4 +1,4 @@
-function neighborhoodMessage(num){
+function neighborhoodMessage(num, messageA){
   const indexedArray = [];
   if(num==="" || num===undefined || num===null || num===Symbol){ 
     return 0;
@@ -10,7 +10,7 @@ function neighborhoodMessage(num){
     const intArr = Array.from(String(i), myFunc); 
     // Print the result array
     if(intArr.includes(3)){
-    indexedArray.push("Won't you be my neighbor?");
+    indexedArray.push(messageA);
   } else if(intArr.includes(2)){
     indexedArray.push("Boop!");
   } else if(intArr.includes(1)){
@@ -25,9 +25,10 @@ function handleFormSubmit(e){
   e.preventDefault();
 
   const input = document.querySelector("input#input-id").value;
-  
-  neighborhoodMessage(input);
-  const output = neighborhoodMessage(input);
+  const messageA = "Won't you be my neighbor?";
+  const messageB = "Boop!";
+  neighborhoodMessage(input, messageA);
+  const output = neighborhoodMessage(input, messageA);
 
   document.querySelector("span#output").innerText = output;
 
