@@ -2,7 +2,7 @@
 
 #### By Vera Weikel
 
-View deployed site [here](https://github.com/QuietEvolver/mr-roboger-neighborhood)
+View deployed site [here](https://github.com/QuietEvolver/mr-roboger-neighborhood.git)
 
 ## Technologies Used
 
