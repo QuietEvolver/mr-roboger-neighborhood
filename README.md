@@ -112,6 +112,13 @@ const num = "";
 neighborhoodMessage(num);
 Expected Output: 0
 
+<!-- Twelfth Test -->
+Test: "It should return current beep, boop, wybmn? array when Won't you be my neighbor? message is extracted for BI/UI separation."
+Code:
+const num = 4;
+neighborhoodMessage(num, messageA);
+Expected Output: [0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4]
+
 ## Setup/Installation Requirements
 
 * _Open a terminal console on your personal computer_
