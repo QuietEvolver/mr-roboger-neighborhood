@@ -31,6 +31,18 @@ function handleFormSubmit(e){
   neighborhoodMessage(input, messageA, messageB, messageC);
   const output = neighborhoodMessage(input, messageA, messageB, messageC);
 
+// QUESTION FOR CALVIN: WIP: how to print to DOM?
+  // for (let i = 0; i < output.length; i++){
+  //   output.forEach(element => { 
+  //   const p1 = document.createElement("p");
+  //   const pTag = document.createElement("p");
+  //   const objArray = [pTag,output];
+  //   p1.innerText = objArray.join(" and ");
+  //   console.log("output: ", element); 
+  //   document.querySelector("span#output").innerText = output;
+  //   }); 
+  // }
+
   document.querySelector("span#output").innerText = output;
 
   // clear previous answers display
